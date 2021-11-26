@@ -1,4 +1,3 @@
-
 nav{
     position: absolute;
     height: 77px;
@@ -14,6 +13,7 @@ body{
     margin: 0;
     height: 2473px;
 }
+/* Navbar */
 #mainNavbar{
     padding-top: 0px;
 }
@@ -38,54 +38,33 @@ body{
     height: 31.3px;
     border-radius: 3px;
 }
-#section1{
-    max-width: 100vw;
+#main1{
+    position: absolute;
+    width: 778.554px;
+    height: 329.67px;
+    top:117.3px;
+    left: 261.73px;
+    padding: 0%;
 }
+/* Section1 */
 #rect{
     position: absolute;
-    top:117.3px;
     width: 282.3px;
     height: 329.67px;
-    left: 261.73px;
 }
 #rect2{
     position: absolute;
-    top:157.176px;
-    width: 362.97px;
-    height: 243.09px;
-    left: 299.7px;
+    width: 469px;
+    height: 346.3px;
 }
 #rect3{
     position: absolute;
-    top:115.198px;
-    width: 471px;
-    height: 346.3px;
-    left: 239.3px;
+    width: 362.97px;
+    height: 243.09px;
+    top: 39.96px;
+    left: 57.962px;
 }
-#circle{
-    position: absolute;
-    margin-top: 300.7px;
-    margin-left: 630.8px;
-    width: 114.55;
-    height: 113.22px;
-}
-#one{
-    position: absolute;
-    left: 722.61px;
-    top: 224.4px;
-    display: flex;
-    width: 317.8px;
-    height: 96.57px;
-    flex-direction: column;
-    justify-content: space-between;
-}
-#one div{
-    display: block;
-    font-size: 26.64px;
-    font-weight: 900;
-    font-family: 'Roboto';
-}
-#one button{
+#main1 button{
     width: 130.53px;
     box-sizing: border-box;
     height: 36.63px;
@@ -93,22 +72,37 @@ body{
     background-color: #F45201;
     border: 1px solid #F45201;
     border-radius: 5px;
+    margin-top: 24.642px;
 }
-#section2 div:first-of-type{
-    top:519px;
-    position: absolute;
-    left: 545px;
-    font-size: 19.3px;
+#main1 h4{
     font-weight: 900;
 }
-#group{
-    position: absolute;
-    top:568.76px;
-    width: 505.5px;
-    height: 177.8px;
-    left:386.95px;
+#word{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 329.67px;
+    padding-left: 35px;
 }
-#section2 .container{
+/* section 2 */
+#main2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 518.814px;
+    left: 282.714px;
+    padding: 0%;
+    height: 441.558px;
+    width: 734.268px;
+}
+#main2 h6{
+    font-weight: 900;
+}
+#main2 p{
+    font-size: 15.98px;
+    font-weight: 400;
+}
+#main2 .container{
     position: absolute;
     width: 732px;
     height: 182.5px;
@@ -116,116 +110,111 @@ body{
     left: 285.7px;
     padding: 0;
 }
-#section2 p{
-    font-size: 15.98px;
-    font-weight: 400;
+#group{
+    width: 505.5px;
+    height: 177.8px;
 }
-#DP div{
+#main3{
+    position: absolute;
+    height: 648.684px;
+    width: 715.9px;
+    top: 1001.44px;
+    left: 302.364px;
+    padding: 0%;
+}
+#main3 h6{
     font-size: 13.32px;
     font-weight: 600;
 }
+#main3  div{
+    padding: 0%;
+}
+#r1{
+    height: 566.1px;
+}
 #i1{
-    position: absolute;
-    width: 102.2px;
-    height: 158.178px;
-    top: 1001.998px;
-    left: 607.09px ;
-}
-#i1 + div{
-    position: absolute;
-    top: 1155.32px;
-    left: 621.68px ;
-}
-#i2{
-    position: absolute;
-    width: 114.552px;
-    height: 167.832px;
-    top: 1068.58px;
-    left: 766.22px ;
-}
-#i2 + div{
-    position: absolute;
-    top: 1229.79px;
-    left: 767.22px ;
-}
-#i3{
-    position: absolute;
-    width: 165.228px;
-    height: 167.832px;
-    top: 1060.938px;
-    left: 413.56px ;
-}
-#i3 + div{
-    position: absolute;
-    top: 1229.79px;
-    left: 454.43px ;
-}
-#cen{
-    position: absolute;
-    width: 173.16px;
-    height: 173.16px;
-    top: 1189.48px;
-    left: 576.09px ;
-}
-#i4{
-    position: absolute;
-    width: 158.2px;
-    height: 170.854px;
-    top: 1388.61px;
-    left: 586.09px ;
-}
-#i4 + div{
-    position: absolute;
-    top: 1549.78px;
-    left: 590.5px ;
-}
-#i5{
-    position: absolute;
     width: 103.56px;
     height: 180.5px;
-    top: 1200.092px;
-    left: 302.55px ;
+    margin-top: 199.8px;
 }
-#i5 + div{
-    position: absolute;
-    top: 1368.26px;
-    left: 316.6px ;
+#i1 + h6{
+    margin-left: 10px;
 }
-#i6{
-    position: absolute;
+#i2{
+    height: 167.832px;
+    margin-top:59.274px;
+    margin-left: 15px;
+}
+#i2 + h6{
+    margin-left: 15px;
+}
+#i3{
     width: 104.552px;
     height: 168.832px;
-    top:1315.017px;
-    left: 439.56px ;
+    margin-top:69.294px;
+    margin-left: 5px;
 }
-#i6 + div{
-    position: absolute;
-    top: 1467.194px;
-    left: 438.231px ;
+#i3 + h6{
+    margin-left: 15px;
+}
+#i4{
+    width: 102.2px;
+    height: 158.178px;
+    margin-left: 67px;
+}
+#i4 + h6{
+    margin-left: 75px;
+}
+#cen{
+    width: 173.16px;
+    height: 173.16px;
+    top: 189.81px;
+    margin-left: 37px;
+}
+#i5{
+    width: 158.2px;
+    height: 170.854px;
+    margin-top: 27.306px;
+    margin-left: 47px;
+}
+#i5 + h6{
+    margin-left: 50px;
+}
+#i6{
+    width: 114.552px;
+    height: 167.832px;
+    margin-top: 66.66px;
+}
+#i6 + h6{
+    margin-left: 10px;
 }
 #i7{
-    position: absolute;
-    width: 114.224px;
-    height: 170.854px;
-    top: 1203.5px;
-    left: 911.1px ;
-}
-#i7 +div{
-    position: absolute;
-    top: 1370.65px;
-    left: 907.53px ;
-}
-#i8{
-    position: absolute;
     width: 94.232px;
     height: 173.832px;
-    top: 1310.69px;
-    left: 778.22px ;
+    margin-top: 54.604px;
+    margin-left: 15px;
 }
-#i8 + div{
-    position: absolute;
-    top: 1470.194px;
-    left: 794.41px ;
+#i7 + h6{
+    margin-left: 30px;
+}
+#i8{
+    width: 114.224px;
+    height: 170.854px;
+    margin-top: 199.8px;
+    margin-left: 18px;
+}
+#i8 + h6{
+    margin-left: 15px;
+}
+#main3 button{
+    height: 36.63px;
+    width: 130.536px;
+    color: white;
+    background-color: #F45201;
+    border: 1px solid #F45201;
+    border-radius: 6px;
+    font-size: 13.32px;
+    margin-top: 15px;
 }
 #rect4{
     position: absolute;
@@ -233,56 +222,44 @@ body{
     width: 100%;
     top: 826.506px;
 }
-#DP button{
+/* Section 4 */
+#main4{
     position: absolute;
-    height: 36.63px;
-    width: 130.536px;
-    top:1613.718px;
-    left: 597.402px;
-    color: white;
-    background-color: #F45201;
-    border: 1px solid #F45201;
-    border-radius: 6px;
-    font-size: 13.32px;
+    height: 775.89px;
+    width: 755.91px;
+    top: 1716.3px;
+    padding: 0%;
+    left: 254.412px;
 }
 #rect5{
-    position: absolute;
-    top:1736.262px;
     width: 282.3px;
     height: 329.67px;
-    left: 254.412px;
 }
 #rect6{
     position: absolute;
-    top:1737.244px;
-    width: 468.24px;
-    height: 346.3px;
-    left: 245.728px;
+    top:0px;
+    width: 470.24px;
+    height: 344.3px;
+    left: -10px;
 }
 #rect7{
     position: absolute;
-    top:1775.228px;
+    left: 50.958px;
     width: 370.612px;
-    height: 255.408px;
-    left: 305.37px;
+    height: 253.408px;
+    top: 38.966px;
 }
-#two{
-    width: 180px;
-    position: absolute;
+#main4 h3{
+    font-weight: 900;
+}
+#text{
     display: flex;
     flex-direction: column;
-    height: 89.582px;
-    justify-content: space-between;
-    top: 1863.468px;
-    left:767.232px;
+    justify-content: center;
+    height: 329.67px;
+    padding-left: 70px;
 }
-#two div{
-    display: block;
-    font-size: 26.64px;
-    font-weight: 900;
-    font-family: 'Roboto';
-}
-#two button{
+#main4 button{
     width: 130.53px;
     box-sizing: border-box;
     height: 36.63px;
@@ -290,19 +267,7 @@ body{
     color: #F45201;
     border: 1px solid #F45201;
     border-radius: 5px;
-}
-#three{
-    position: absolute;
-    width: 755.91px;
-    height: 251.082px;
-    left: 252.78px;
-    top: 2124.54px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-    padding: 0%;
-    margin-bottom: 96.57px;
+    margin-top: 12px;
 }
 .box{
     border:1px solid #55D3DC;
@@ -313,6 +278,19 @@ body{
     border-radius: 6px;
     padding: 0%;
 }
+#main4 .col-4{
+    padding-left: 0%;
+}
+.box h6{
+    width:110.232px;
+    font-size: 15.984;
+    font-weight: 700;
+    padding-left: 16px;
+}
+.box img{
+    height: 65.1px ;
+    width: 56.38px;
+}
 .box div:first-of-type{
     background-color: #55D3DC;
     opacity: 32%;
@@ -321,16 +299,5 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 0%;
     border-radius: 6px;
-}
-.box img{
-    height: 65.1px ;
-    width: 56.38px;
-}
-.box div:nth-of-type(2){
-    width:110.232px;
-    font-size: 15.984;
-    font-weight: 700;
-    padding-left: 16px;
 }
